@@ -14,13 +14,12 @@
 
 ### About
 
-I'm a 2nd-year Computer Science student at Asansol Engineering College, building a foundation in software engineering and quantitative problem-solving with an eye on **fintech and quant-adjacent engineering roles**, alongside a parallel path toward a Master's in Germany.
+I'm a 2nd-year Computer Science student at Asansol Engineering College, building a foundation in software engineering and quantitative problem-solving. Interested in **fintech and quant-adjacent engineering roles**.
 
 Right now that means: strong fundamentals in data structures & algorithms, hands-on machine learning projects, and writing production-style code — not just coursework.
 
 - 🎯 Focused on **DSA, ML, and backend engineering**
-- 🏦 Long-term target: **fintech / quant-adjacent engineering roles**
-- 🎓 Parallel goal: **MSc in Germany** (CS / Data-focused programs)
+- 🏦 Interested in **fintech / quant-adjacent engineering roles**
 - 🌱 Currently deepening OS, algorithms (Greedy & DP), and applied ML
 
 ---
@@ -28,12 +27,18 @@ Right now that means: strong fundamentals in data structures & algorithms, hands
 ### Featured Project
 
 <a href="https://github.com/aiyaniqbal/Spam-Guard">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=aiyaniqbal&repo=Spam-Guard&theme=default&hide_border=true" />
+  <img align="left" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aiyaniqbal&repo=Spam-Guard&theme=default&hide_border=true" />
 </a>
 
 **SpamGuard** — An ML-based SMS spam detection system built with a Logistic Regression + TF-IDF pipeline (scikit-learn), served via FastAPI, with a clean web frontend for real-time classification. Trained on a merged dataset (UCI SMS Spam + modern scam patterns), achieving ~98% accuracy.
 
 <br clear="left"/>
+
+<p align="left">
+  <a href="https://github.com/aiyaniqbal/Spam-Guard">
+    <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -58,8 +63,8 @@ Right now that means: strong fundamentals in data structures & algorithms, hands
 ### GitHub Stats
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=aiyaniqbal&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiyaniqbal&layout=compact&theme=default&hide_border=true" />
+  <img height="165em" src="https://github-readme-stats-fast.vercel.app/api?username=aiyaniqbal&show_icons=true&theme=default&hide_border=true" />
+  <img height="165em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aiyaniqbal&layout=compact&theme=default&hide_border=true" />
 </p>
 
 ---
