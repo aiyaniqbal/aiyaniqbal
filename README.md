@@ -22,44 +22,65 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I'm a **2nd-year Computer Science Engineering student at Asansol Engineering College**, building strong foundations in software engineering, data structures and algorithms, machine learning, and backend development.
 
-I enjoy turning ideas into working systems — from ML-powered APIs to AI-driven learning applications.
+I enjoy turning ideas into working systems, from ML-powered APIs to AI-driven learning applications and language tools.
 
-- 🎯 Focused on **DSA, Machine Learning, AI applications, and Backend Engineering**
-- 🤖 Building projects that combine **AI + real-world software**
-- 💻 Practicing problem solving with **C++ and Python**
-- 🌱 Currently deepening **Operating Systems, Greedy & Dynamic Programming, and Applied ML**
-- 🏦 Interested in **software engineering, fintech, and quant-adjacent engineering roles**
+- Focused on **DSA, Machine Learning, AI applications, and Backend Engineering**
+- Building projects that combine **AI with real-world software**
+- Practicing problem solving with **C++ and Python**
+- Currently deepening **Operating Systems, Greedy & Dynamic Programming, and Applied ML**
+- Interested in **software engineering, fintech, and quant-adjacent engineering roles**
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🎓 AI Teacher — Adaptive AI Learning Platform
+### Chhand: Meter-Aware Poetry Studio for Hindi, Urdu and Bengali
+
+> **Top 50 team (semi-finalist), GeNarrative Clash**, hosted at Techno India University. Built by Team ORBIT.
+
+<a href="https://github.com/aiyaniqbal/chhand">
+  <img src="https://img.shields.io/badge/View%20Chhand%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+**Chhand** is a poetry writing and recitation studio that pairs classical South Asian prosody with generative AI. Language models propose lines; deterministic rule-based engines check the meter. The writer stays in control of the final verse.
+
+**Highlights**
+
+- **Poems:** interactive Devanagari editor with real-time matra scansion for Doha and Chaupai, laghu/guru breakdowns, and position-exact diagnostics for lines that miss their meter
+- **Verified rewrites:** AI-suggested replacements for off-meter lines, accepted only after they pass the meter engine
+- **Create:** original verse in Hindi, Urdu (Ghazal with classical Bahrs, Taqti) and Bengali (Aksharbritta, Matrabritta, Swarabritta)
+- **Recite:** line-by-line Gemini text-to-speech with selectable voices and cadence styles
+- **Rhymes:** phonetic rhyme search by ending sound, inserted directly into the active verse
+- **Export:** print-ready lyric sheets in HTML and plain text
+- **Engineering:** FastAPI backend, modular vanilla JS frontend, Vercel deployment, and 99 automated tests across the meter, generation, TTS and export modules
+
+**Core stack**
+
+`Python` `FastAPI` `Gemini` `Vanilla JS` `HTML` `CSS` `Pydantic` `pytest` `Vercel`
+
+---
+
+### AI Teacher: Adaptive AI Learning Platform
 
 <a href="https://github.com/aiyaniqbal/ai-teacher">
   <img src="https://img.shields.io/badge/View%20AI%20Teacher%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-**AI Teacher** is an AI-powered learning platform designed to turn a student's study material into an interactive, personalized teaching experience.
-
-The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching, and neural text-to-speech** to create an engaging learning workflow.
+**AI Teacher** is an AI-powered learning platform that turns a student's own study material into an interactive, personalized lesson.
 
 **Highlights**
 
-- 📚 Upload **PDF, DOCX, PPTX, and TXT** learning material
-- 🔎 **RAG pipeline** using Sentence Transformers + FAISS for document-grounded learning
-- 🧠 **Gemini-powered lesson generation**
-- 🎯 Personalized lessons based on **level, available time, learning goal, language, and teaching style**
-- 💬 Interactive **Quick Checks** during teaching
-- 🔄 Adaptive feedback after correct and incorrect responses
-- 🌐 **English, Hindi, and Hinglish** teaching modes
-- 🔊 Neural voice output with **Edge-TTS**
-- ⚡ React + Vite frontend with a **FastAPI** backend
-- ☁️ Supabase integration
+- Upload **PDF, DOCX, PPTX, and TXT** learning material
+- **RAG pipeline** using Sentence Transformers and FAISS for document-grounded answers
+- **Gemini-powered lesson generation**, personalized by level, available time, goal, language, and teaching style
+- Interactive **Quick Checks** with adaptive feedback after correct and incorrect answers
+- **English, Hindi, and Hinglish** teaching modes
+- Neural voice output with **Edge-TTS**
+- React + Vite frontend with a **FastAPI** backend and Supabase integration
 
 **Core stack**
 
@@ -67,19 +88,50 @@ The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching
 
 ---
 
-### 🛡️ SpamGuard — ML SMS Spam Detection
+### Lernaut: AI Learning Platform
+
+<a href="https://github.com/aiyaniqbal/Lernaut">
+  <img src="https://img.shields.io/badge/View%20Lernaut%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+**Lernaut** is an AI-powered learning platform built to make studying more engaging and interactive.
+
+---
+
+### Student Score Predictor: Academic Analytics with ML
+
+<a href="https://github.com/aiyaniqbal/student-score-predictor">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+**Student Score Predictor** is an ML-powered student analytics platform. It predicts examination scores and flags students at risk of failing, then turns the results into practical guidance.
+
+**Highlights**
+
+- **Multiple Linear Regression** to predict examination scores
+- **Logistic Regression** to identify potential academic failure risk
+- Interactive predictions from academic inputs such as study hours, attendance, and previous scores
+- **What-if analysis** to see how changes in habits affect the predicted outcome
+- **Model insights** that show what drives each prediction
+- **Personalized academic support recommendations**
+
+**Core stack**
+
+`Python` `Multiple Linear Regression` `Logistic Regression`
+
+---
+
+### SpamGuard: ML SMS Spam Detection
 
 <a href="https://github.com/aiyaniqbal/Spam-Guard">
   <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-**SpamGuard** is an ML-based SMS spam detection system using a **Logistic Regression + TF-IDF** pipeline, served through FastAPI with a clean web interface for real-time classification.
+**SpamGuard** is an ML-based SMS spam detector built on a **Logistic Regression + TF-IDF** pipeline, served through FastAPI with a clean web interface for real-time classification.
 
-- 🤖 Logistic Regression classifier
-- 🧹 NLP preprocessing + TF-IDF feature extraction
-- ⚡ FastAPI prediction API
-- 📊 Real-time classification interface
-- 🎯 ~98% reported classification accuracy on the project dataset
+- Logistic Regression classifier with NLP preprocessing and TF-IDF feature extraction
+- FastAPI prediction API and real-time classification interface
+- ~98% reported classification accuracy on the project dataset
 
 **Core stack**
 
@@ -87,7 +139,7 @@ The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Languages
 
@@ -122,6 +174,7 @@ The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching
 
 <p>
   <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Edge--TTS-0078D4?style=for-the-badge&logo=microsoftedge&logoColor=white" />
@@ -129,20 +182,20 @@ The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching
 
 ---
 
-## 🧠 Core Focus Areas
+## Core Focus Areas
 
 | Area | Current Focus |
 |---|---|
-| 🧩 Data Structures & Algorithms | Arrays, Linked Lists, Stacks, Queues, Trees, Hashing, Greedy, DP |
-| 🤖 Machine Learning | Classical ML, NLP, model evaluation, applied ML systems |
-| 🧠 Generative AI | Gemini, RAG, prompt engineering, adaptive learning systems |
-| ⚙️ Backend | Python, FastAPI, REST APIs, service integration |
-| 🌐 Frontend | React, TypeScript, Vite, responsive UI |
-| 🖥️ CS Fundamentals | Operating Systems and core problem solving |
+| Data Structures & Algorithms | Arrays, Linked Lists, Stacks, Queues, Trees, Hashing, Greedy, DP |
+| Machine Learning | Regression and classification, NLP, model evaluation, applied ML systems |
+| Generative AI | Gemini, RAG, prompt engineering, verified generation, adaptive learning systems |
+| Backend | Python, FastAPI, REST APIs, service integration, automated testing |
+| Frontend | React, TypeScript, Vite, vanilla JS, responsive UI |
+| CS Fundamentals | Operating Systems and core problem solving |
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img height="165em" src="https://github-readme-stats-fast.vercel.app/api?username=aiyaniqbal&show_icons=true&theme=default&hide_border=true" />
@@ -151,7 +204,7 @@ The platform combines **RAG, Gemini, adaptive questioning, multilingual teaching
 
 ---
 
-## 📌 Current Direction
+## Current Direction
 
 I'm focused on becoming a stronger engineer by combining:
 
